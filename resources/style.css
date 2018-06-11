@@ -1,0 +1,83 @@
+html{
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+/**Header Section**/
+header{
+	height: 4rem;
+	display: flex;
+	flex-direction: column;
+	margin: auto 0;
+
+}
+
+header p{
+	font-family: 'Poppins', sans-serif;
+}
+
+.header-left{
+	display: flex;
+	height: 2rem;
+	padding-left: 1.5rem;
+	align-content: center;
+}
+
+.header-left img{
+	height: 2rem;
+	padding-top: 1.5rem;
+}
+
+.header-left p{
+	padding-top: 1.85rem
+}
+
+.header-right{
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 1.5rem;
+}
+
+.header-items{
+	display: inline;
+	padding-left: 1rem;
+}
+
+/**Banner Section**/
+.banner{
+	width: 100%;
+	display: flex;
+	background-color: rgb(203 204 222);
+}
+
+.banner-text{
+	width: 30%;
+	padding: 1.5rem;
+	margin: auto 0;
+}
+
+.banner img{
+	width: 60%;
+	padding: 2rem 1.5rem;
+}
+
+.banner-text h2{
+	font-size: 2.5rem;
+	font-weight: bold;
+	padding-bottom: 1.5rem;
+	color: rgb(58 59 64);
+}
+
+.banner-text p{
+	font-size: 1.25rem;
+	font-weight: 500;
+	padding-bottom: 1.5rem;
+	color: (58 59 64);
+}
+
+.button{
+	padding-top: 1rem;
+	background-color: rgb(58 59 64);
+	color: white;
+	text-align: center;
+}
