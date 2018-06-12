@@ -72,12 +72,99 @@ header p{
 	font-size: 1.25rem;
 	font-weight: 500;
 	padding-bottom: 1.5rem;
-	color: (58 59 64);
+	color: rgb(58 59 64);
 }
 
-.button{
+#button{
 	padding-top: 1rem;
 	background-color: rgb(58 59 64);
 	color: white;
 	text-align: center;
 }
+
+/**Information Section**/
+.info{
+	display: flex;
+}
+
+.info-left{
+	width: 60%;
+}
+
+.info-left img{
+	width: 100%;
+	padding: 2rem 1.5rem;
+}
+
+.info-left-text{
+	width: 100%;
+	padding-left: 1.5rem;
+}
+
+.info-left-text h3{
+	font-size: 2rem;
+	font-weight: 700;
+	padding-bottom: 1.5rem;
+	color: rgb(58 59 64);
+}
+
+.info-left-text blockquote{
+	line-height: 1.5rem;
+	color: rgb(84 84 92);
+}
+
+.info-left-text p{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	font-size: 0.75rem;
+	color: rgb(58 59 64);
+}
+
+.info-right{
+	display: flex;
+}
+
+.info-right img{
+	height: auto;
+	width: 30%;
+	padding: 2rem;
+	padding-left: 2.5rem;
+}
+
+.info-right p{
+	width: 65%;
+	padding: 0.5rem;
+	color: rgb(84 84 92);
+}
+
+.info-right h4{
+	padding-left: 0.5rem;
+	font-size: 1.75rem;
+	color: rgb(58 59 64);
+}
+
+.info-right-section{
+	margin: auto 0;
+}
+
+.right{
+	width: 40%;
+}
+
+#blue{
+	color: blue;
+}
+
+#guest{
+	background-color: rgb(203 204 222);
+	width: 95%;
+	float: right;
+}
+
+#guest img{
+	width: 48%;
+	padding-left: 1.25rem;
+	padding: 1rem;
+}
+
+
