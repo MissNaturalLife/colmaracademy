@@ -168,3 +168,70 @@ header p{
 }
 
 
+/**Start Learning Section**/
+.start-learning{
+	width: 100%;
+	background-color: rgb(203 204 222); 
+	padding-bottom: 2rem;
+}
+
+.start-learning h2{
+	font-size: 2rem;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.container{
+	width: 100%;
+	justify-content: center;
+}
+
+.top{
+	display: flex;
+	justify-content: center;
+	padding-left: 4rem;
+	padding-right: 4rem;
+}
+
+.bottom{
+	display: flex;
+	justify-content: center;
+	padding-left: 4rem;
+	padding-right: 4rem;
+}
+
+.box{
+	width: 25%;
+	background-color: white;
+	margin: 1rem;
+}
+
+.box h3{
+	font-size: 1.5rem;
+	padding: 1rem;
+}
+
+.box p{
+	color: rgb(84 84 92);
+	padding-left: 1rem;
+	width: 90%;
+}
+
+.box img{
+	width: 100%;
+}
+
+#courses{
+	text-transform: uppercase;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+#learning-bottom{
+	margin-bottom: 1.5rem;
+}
+
+
