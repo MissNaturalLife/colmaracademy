@@ -212,6 +212,7 @@ header p{
 .box h3{
 	font-size: 1.5rem;
 	padding: 1rem;
+	color: rgb(58 59 64);
 }
 
 .box p{
@@ -234,4 +235,44 @@ header p{
 	margin-bottom: 1.5rem;
 }
 
+/**Thesis Exhibit Section**/
+
+.thesis{
+}
+
+.thesis h2{
+	font-size: 2rem;
+	font-weight: bold;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	display: flex;
+	justify-content: center;
+}
+
+.thesis-container{
+}
+
+.thesis-left{
+	max-width: 60%;
+}
+
+.video{
+	padding: 2rem;
+}
+
+.thesis-left-info h3{
+	padding-left: 2rem;
+	color: rgb(58 59 64);
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.thesis-left-info blockquote{
+	padding-left: 2rem;
+	padding-top: 0.5rem;
+	padding-bottom: 2rem;
+	color: rgb(84 84 92);
+	font-size: 0.9rem;
+	line-height: 1.5rem;
+}
 
