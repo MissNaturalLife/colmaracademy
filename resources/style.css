@@ -250,6 +250,7 @@ header p{
 }
 
 .thesis-container{
+	display: flex;
 }
 
 .thesis-left{
@@ -274,5 +275,56 @@ header p{
 	color: rgb(84 84 92);
 	font-size: 0.9rem;
 	line-height: 1.5rem;
+	max-width: 85%;
 }
 
+.thesis-right-box{
+	display: flex;
+}
+
+.thesis-right-box img{
+	width: 30%;
+	padding: 1rem;
+}
+
+#thesis-top{
+	background-color: rgb(203 204 222);
+
+}
+
+.thesis-right-text{
+	padding: 1rem;
+	margin: auto 0;
+}
+
+.thesis-right-text h2{
+	font-size: 1.5rem;
+	color: rgb(58 59 64);
+	display: flex;
+	justify-content: flex-start;
+}
+
+/**Footer Section**/
+.footer{
+	display: flex;
+	width: 100%;
+	padding-bottom: 2rem;
+}
+
+.footer-right{
+	display: flex;
+	justify-content: flex-end;
+	width: 75%;
+	color: rgb(84 84 92);
+	font-size: 0.85rem;
+}
+
+.footer-right span{
+	padding-right: 1rem;
+}
+
+.footer-left{
+	padding-left: 1rem;
+	color: rgb(84 84 92);
+	font-size: 0.85rem;
+}
